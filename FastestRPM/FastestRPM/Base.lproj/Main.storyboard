@@ -24,8 +24,21 @@
                                     <constraint firstAttribute="width" constant="400" id="vOT-nU-teB"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="olnJarq.png" translatesAutoresizingMaskIntoConstraints="NO" id="YYU-WB-zaQ">
-                                <rect key="frame" x="100" y="199.5" width="400" height="200"/>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="olnJarq.png" translatesAutoresizingMaskIntoConstraints="NO" id="he0-qA-jBy">
+                                <rect key="frame" x="150" y="200" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="CiX-lg-Q0F"/>
+                                    <constraint firstAttribute="height" constant="200" id="k1N-L0-Lqi"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="400" id="mjt-yp-YIx"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mjt-yp-YIx"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="olnJarq.png" translatesAutoresizingMaskIntoConstraints="NO" id="YYU-WB-zaQ">
+                                <rect key="frame" x="100" y="199" width="400" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="400" id="fNV-wB-GEY"/>
                                     <constraint firstAttribute="height" constant="200" id="mQR-oI-6b7"/>
@@ -42,7 +55,9 @@
                             <constraint firstItem="YYU-WB-zaQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CPO-Bh-H3p"/>
                             <constraint firstItem="dM7-Ut-DXb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ErA-0a-F6J"/>
                             <constraint firstItem="js0-3y-CmF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gu3-wZ-gwA"/>
+                            <constraint firstItem="he0-qA-jBy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="K02-TY-DuP"/>
                             <constraint firstAttribute="trailing" secondItem="dM7-Ut-DXb" secondAttribute="trailing" id="Mej-Pl-b0J"/>
+                            <constraint firstItem="he0-qA-jBy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rhn-ei-nuD"/>
                             <constraint firstItem="YYU-WB-zaQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mPb-EW-nsR"/>
                             <constraint firstItem="js0-3y-CmF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sWM-5U-QAa"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dM7-Ut-DXb" secondAttribute="bottom" id="yGL-Hi-O9H"/>
@@ -50,6 +65,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="maxNeedle" destination="he0-qA-jBy" id="bCd-iA-OiO"/>
                         <outlet property="needle" destination="YYU-WB-zaQ" id="V8n-zd-w42"/>
                         <outlet property="topView" destination="dM7-Ut-DXb" id="9WL-bg-JE4"/>
                     </connections>
