@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA50DDA1C5134C0004186F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA50DD91C5134C0004186F6 /* main.m */; };
+		EDA50DDD1C5134C0004186F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA50DDC1C5134C0004186F6 /* AppDelegate.m */; };
+		EDA50DE01C5134C0004186F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA50DDF1C5134C0004186F6 /* ViewController.m */; };
+		EDA50DE31C5134C0004186F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA50DE11C5134C0004186F6 /* Main.storyboard */; };
+		EDA50DE51C5134C0004186F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA50DE41C5134C0004186F6 /* Assets.xcassets */; };
+		EDA50DE81C5134C0004186F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA50DE61C5134C0004186F6 /* LaunchScreen.storyboard */; };
+		EDA50DF31C5134C0004186F6 /* FastestRPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA50DF21C5134C0004186F6 /* FastestRPMTests.m */; };
+		EDA50DFE1C5134C0004186F6 /* FastestRPMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA50DFD1C5134C0004186F6 /* FastestRPMUITests.m */; };
+		EDA50E0C1C5134F5004186F6 /* RymB8v2.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA50E0B1C5134F5004186F6 /* RymB8v2.png */; };
+		EDA50E0E1C513505004186F6 /* olnJarq.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA50E0D1C513505004186F6 /* olnJarq.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA50DEF1C5134C0004186F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA50DCD1C5134C0004186F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA50DD41C5134C0004186F6;
+			remoteInfo = FastestRPM;
+		};
+		EDA50DFA1C5134C0004186F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA50DCD1C5134C0004186F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA50DD41C5134C0004186F6;
+			remoteInfo = FastestRPM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDA50DD51C5134C0004186F6 /* FastestRPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastestRPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA50DD91C5134C0004186F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDA50DDB1C5134C0004186F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDA50DDC1C5134C0004186F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDA50DDE1C5134C0004186F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDA50DDF1C5134C0004186F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDA50DE21C5134C0004186F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA50DE41C5134C0004186F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA50DE71C5134C0004186F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA50DE91C5134C0004186F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA50DEE1C5134C0004186F6 /* FastestRPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastestRPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA50DF21C5134C0004186F6 /* FastestRPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMTests.m; sourceTree = "<group>"; };
+		EDA50DF41C5134C0004186F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA50DF91C5134C0004186F6 /* FastestRPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastestRPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA50DFD1C5134C0004186F6 /* FastestRPMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMUITests.m; sourceTree = "<group>"; };
+		EDA50DFF1C5134C0004186F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA50E0B1C5134F5004186F6 /* RymB8v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RymB8v2.png; sourceTree = "<group>"; };
+		EDA50E0D1C513505004186F6 /* olnJarq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olnJarq.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA50DD21C5134C0004186F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA50DEB1C5134C0004186F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA50DF61C5134C0004186F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA50DCC1C5134C0004186F6 = {
+			isa = PBXGroup;
+			children = (
+				EDA50DD71C5134C0004186F6 /* FastestRPM */,
+				EDA50DF11C5134C0004186F6 /* FastestRPMTests */,
+				EDA50DFC1C5134C0004186F6 /* FastestRPMUITests */,
+				EDA50DD61C5134C0004186F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA50DD61C5134C0004186F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA50DD51C5134C0004186F6 /* FastestRPM.app */,
+				EDA50DEE1C5134C0004186F6 /* FastestRPMTests.xctest */,
+				EDA50DF91C5134C0004186F6 /* FastestRPMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA50DD71C5134C0004186F6 /* FastestRPM */ = {
+			isa = PBXGroup;
+			children = (
+				EDA50DDB1C5134C0004186F6 /* AppDelegate.h */,
+				EDA50DDC1C5134C0004186F6 /* AppDelegate.m */,
+				EDA50DDE1C5134C0004186F6 /* ViewController.h */,
+				EDA50DDF1C5134C0004186F6 /* ViewController.m */,
+				EDA50DE11C5134C0004186F6 /* Main.storyboard */,
+				EDA50DE41C5134C0004186F6 /* Assets.xcassets */,
+				EDA50DE61C5134C0004186F6 /* LaunchScreen.storyboard */,
+				EDA50DE91C5134C0004186F6 /* Info.plist */,
+				EDA50E0B1C5134F5004186F6 /* RymB8v2.png */,
+				EDA50E0D1C513505004186F6 /* olnJarq.png */,
+				EDA50DD81C5134C0004186F6 /* Supporting Files */,
+			);
+			path = FastestRPM;
+			sourceTree = "<group>";
+		};
+		EDA50DD81C5134C0004186F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA50DD91C5134C0004186F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDA50DF11C5134C0004186F6 /* FastestRPMTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA50DF21C5134C0004186F6 /* FastestRPMTests.m */,
+				EDA50DF41C5134C0004186F6 /* Info.plist */,
+			);
+			path = FastestRPMTests;
+			sourceTree = "<group>";
+		};
+		EDA50DFC1C5134C0004186F6 /* FastestRPMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA50DFD1C5134C0004186F6 /* FastestRPMUITests.m */,
+				EDA50DFF1C5134C0004186F6 /* Info.plist */,
+			);
+			path = FastestRPMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA50DD41C5134C0004186F6 /* FastestRPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA50E021C5134C0004186F6 /* Build configuration list for PBXNativeTarget "FastestRPM" */;
+			buildPhases = (
+				EDA50DD11C5134C0004186F6 /* Sources */,
+				EDA50DD21C5134C0004186F6 /* Frameworks */,
+				EDA50DD31C5134C0004186F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastestRPM;
+			productName = FastestRPM;
+			productReference = EDA50DD51C5134C0004186F6 /* FastestRPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA50DED1C5134C0004186F6 /* FastestRPMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA50E051C5134C0004186F6 /* Build configuration list for PBXNativeTarget "FastestRPMTests" */;
+			buildPhases = (
+				EDA50DEA1C5134C0004186F6 /* Sources */,
+				EDA50DEB1C5134C0004186F6 /* Frameworks */,
+				EDA50DEC1C5134C0004186F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA50DF01C5134C0004186F6 /* PBXTargetDependency */,
+			);
+			name = FastestRPMTests;
+			productName = FastestRPMTests;
+			productReference = EDA50DEE1C5134C0004186F6 /* FastestRPMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA50DF81C5134C0004186F6 /* FastestRPMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA50E081C5134C0004186F6 /* Build configuration list for PBXNativeTarget "FastestRPMUITests" */;
+			buildPhases = (
+				EDA50DF51C5134C0004186F6 /* Sources */,
+				EDA50DF61C5134C0004186F6 /* Frameworks */,
+				EDA50DF71C5134C0004186F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA50DFB1C5134C0004186F6 /* PBXTargetDependency */,
+			);
+			name = FastestRPMUITests;
+			productName = FastestRPMUITests;
+			productReference = EDA50DF91C5134C0004186F6 /* FastestRPMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA50DCD1C5134C0004186F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Carl Udren";
+				TargetAttributes = {
+					EDA50DD41C5134C0004186F6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EDA50DED1C5134C0004186F6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EDA50DD41C5134C0004186F6;
+					};
+					EDA50DF81C5134C0004186F6 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EDA50DD41C5134C0004186F6;
+					};
+				};
+			};
+			buildConfigurationList = EDA50DD01C5134C0004186F6 /* Build configuration list for PBXProject "FastestRPM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA50DCC1C5134C0004186F6;
+			productRefGroup = EDA50DD61C5134C0004186F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA50DD41C5134C0004186F6 /* FastestRPM */,
+				EDA50DED1C5134C0004186F6 /* FastestRPMTests */,
+				EDA50DF81C5134C0004186F6 /* FastestRPMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA50DD31C5134C0004186F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA50E0C1C5134F5004186F6 /* RymB8v2.png in Resources */,
+				EDA50DE81C5134C0004186F6 /* LaunchScreen.storyboard in Resources */,
+				EDA50DE51C5134C0004186F6 /* Assets.xcassets in Resources */,
+				EDA50DE31C5134C0004186F6 /* Main.storyboard in Resources */,
+				EDA50E0E1C513505004186F6 /* olnJarq.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA50DEC1C5134C0004186F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA50DF71C5134C0004186F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA50DD11C5134C0004186F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA50DE01C5134C0004186F6 /* ViewController.m in Sources */,
+				EDA50DDD1C5134C0004186F6 /* AppDelegate.m in Sources */,
+				EDA50DDA1C5134C0004186F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA50DEA1C5134C0004186F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA50DF31C5134C0004186F6 /* FastestRPMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA50DF51C5134C0004186F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA50DFE1C5134C0004186F6 /* FastestRPMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA50DF01C5134C0004186F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA50DD41C5134C0004186F6 /* FastestRPM */;
+			targetProxy = EDA50DEF1C5134C0004186F6 /* PBXContainerItemProxy */;
+		};
+		EDA50DFB1C5134C0004186F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA50DD41C5134C0004186F6 /* FastestRPM */;
+			targetProxy = EDA50DFA1C5134C0004186F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA50DE11C5134C0004186F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA50DE21C5134C0004186F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA50DE61C5134C0004186F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA50DE71C5134C0004186F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA50E001C5134C0004186F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDA50E011C5134C0004186F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA50E031C5134C0004186F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastestRPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.FastestRPM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDA50E041C5134C0004186F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastestRPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.FastestRPM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDA50E061C5134C0004186F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FastestRPMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.FastestRPMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastestRPM.app/FastestRPM";
+			};
+			name = Debug;
+		};
+		EDA50E071C5134C0004186F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FastestRPMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.FastestRPMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastestRPM.app/FastestRPM";
+			};
+			name = Release;
+		};
+		EDA50E091C5134C0004186F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FastestRPMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.FastestRPMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FastestRPM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDA50E0A1C5134C0004186F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FastestRPMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Carl-Udren.FastestRPMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FastestRPM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA50DD01C5134C0004186F6 /* Build configuration list for PBXProject "FastestRPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA50E001C5134C0004186F6 /* Debug */,
+				EDA50E011C5134C0004186F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA50E021C5134C0004186F6 /* Build configuration list for PBXNativeTarget "FastestRPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA50E031C5134C0004186F6 /* Debug */,
+				EDA50E041C5134C0004186F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDA50E051C5134C0004186F6 /* Build configuration list for PBXNativeTarget "FastestRPMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA50E061C5134C0004186F6 /* Debug */,
+				EDA50E071C5134C0004186F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDA50E081C5134C0004186F6 /* Build configuration list for PBXNativeTarget "FastestRPMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA50E091C5134C0004186F6 /* Debug */,
+				EDA50E0A1C5134C0004186F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA50DCD1C5134C0004186F6 /* Project object */;
+}
